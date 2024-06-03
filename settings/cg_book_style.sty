@@ -1,0 +1,46 @@
+\RequirePackage{graphicx}
+\RequirePackage{xcolor}
+
+\RequirePackage[utf8]{inputenc}
+
+\RequirePackage[english]{babel}
+
+\RequirePackage{graphicx}
+
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern} % This sets Latin Modern as the default for the document
+\RequirePackage{helvet}  % This is needed for Helvetica, a similar type to Helvetica Neue
+
+\RequirePackage{tocbibind} % Include bibliography/index in TOC
+\setcounter{tocdepth}{3} % Levels in TOC
+\setcounter{secnumdepth}{3} % Numbering depth
+
+
+\RequirePackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+% \mathbb{R}^n symbols
+
+\usepackage{soul}
+% strikethrough: \st{}
+
+\usepackage{wasysym}
+% for simple smiley: \smiley{}
+
+\usepackage{tipa}
+% for IPA letters like /ɪˌl(j)uːsɪˈdeɪʃn/
+
+
+
+
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newenvironment{example}[1][Example]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
